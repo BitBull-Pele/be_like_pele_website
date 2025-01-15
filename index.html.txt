@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Like Pelé</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            text-align: center;
+            padding: 5rem 1rem;
+            background: #f4f4f4;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .cta {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        section {
+            padding: 2rem 1rem;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        ul li {
+            margin: 0.5rem 0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0.5rem 0 0;
+        }
+        footer ul li {
+            margin: 0 1rem;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Be Like Pelé</h1>
+            <p>Inspiring the next generation through education, blockchain, and NFTs.</p>
+            <a href="#about" class="cta">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About the Project</h2>
+        <p>"Be Like Pelé" is a unique community-driven initiative aimed at making the legacy of inspiring historical figures accessible to children and teenagers. By combining books, digital content, and blockchain technology, we are revolutionizing education.</p>
+        <a href="#features" class="cta">Explore Features</a>
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Educational NFTs that bring history to life</li>
+            <li>AI-powered digital bookstore for authors and readers</li>
+            <li>Community-driven rewards and engagement</li>
+            <li>Integration of AR and VR for immersive learning</li>
+        </ul>
+    </section>
+
+    <section id="community">
+        <h2>Join the Community</h2>
+        <p>Be part of a global movement connecting creators, educators, and students. Participate in competitions, earn rewards, and shape the future of education.</p>
+        <a href="#contact" class="cta">Get Involved</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Be Like Pelé. All rights reserved.</p>
+        <ul>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
